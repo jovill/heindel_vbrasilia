@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+  <!-- Begin Style Definitions -->
+  <Style id="point1">
+    <IconStyle><Icon>kml_ext_files/kml_symbol_dot_0.png</Icon></IconStyle>
+  </Style>
+  <Folder>
+    <name>centro sul</name>
+    <description>centro sul</description>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>100-0001.0004</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9438559998,-19.9782639995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>sem placa ident</description>
+      <name>100-0005.0006</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9449019998,-19.9766629998,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>sem placa ident</description>
+      <name>100-0007.0008</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9413499996,-19.9760439996,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>ilum. prca</description>
+      <name>100-0009.0010</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9388339996,-19.9741359998,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>ilum. prca</description>
+      <name>100-0011.0012</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9431670004,-19.9749089991,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>2 lamp</description>
+      <name>100-0013.0016</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9378770003,-19.9720059996,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>sem placa ident/2lamp</description>
+      <name>100-0017.0019</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9420659999,-19.9710109990,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>100-0020.0024</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9426489996,-19.9692429991,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>100-0025.0027</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9406780004,-19.9696099997,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>ilum. prca</description>
+      <name>100-0028</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9380199999,-19.9696929990,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>100-0029.0032</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9388850001,-19.9670789992,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>sem placa ident</description>
+      <name>100-0033.0035</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9361979999,-19.9653479992,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>100-0036.0038</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9376509998,-19.9636789992,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>sem placa ident.</description>
+      <name>100-0039.0040</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9350819999,-19.9619379990,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>2 la MP./ sem placa ident</description>
+      <name>100-0041.0043</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9343840002,-19.9640169991,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>100-0044.0046</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9334620003,-19.9677399997,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>sem placa ident.</description>
+      <name>100-0047.0048</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9358599998,-19.9685069992,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description><![CDATA[possui placa,porém, o cano de fiação não deixa identifi-lo]]></description>
+      <name>100-0049.0050</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9340450003,-19.9705769992,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>sem placa identif.</description>
+      <name>100-0051.0052</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9343649996,-19.9727739995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>sem placa ident.</description>
+      <name>100-0053.0055</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9414400003,-19.9603359991,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>sem placa ident.</description>
+      <name>100-0056.0057</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9403529996,-19.9571879994,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>sem placa ident.</description>
+      <name>100-0058.0059</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9376560004,-19.9575609992,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>sem placa ident.</description>
+      <name>100-0060.0061</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9358099999,-19.9598869998,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>sem placa ident.</description>
+      <name>100-0062.0063</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9324380003,-19.9577269995,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>100-0064.0066</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9306580000,-19.9587789994,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>sem placa ident.</description>
+      <name>100-0067.0068</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9305200003,-19.9557539996,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>placa identif. encoberta</description>
+      <name>100-0069.0071</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9310419998,-19.9527929996,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>sem placa identif.</description>
+      <name>100-0072.0073</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9324550003,-19.9507829991,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>100-0074.0076</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9343569997,-19.9490519996,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>placa ident. tampada</description>
+      <name>100-0077.0079</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9350729997,-19.9516509993,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>100-0080.0082</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9369190003,-19.9550599991,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>100-0083.0085</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9351220000,-19.9558019998,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <description>Unknown Point Feature</description>
+      <name>100-0086.0088</name>
+      <styleUrl>#point1</styleUrl>
+      <Point>
+        <coordinates>-43.9330809999,-19.9547979997,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>

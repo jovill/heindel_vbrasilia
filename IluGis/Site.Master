@@ -1,0 +1,146 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="IluGis.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en" style="overflow-x: hidden">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IluGIS</title>
+     <!--FONT AWESOME-->
+            <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+        <!--ANGULAR-->
+            <script src="js/angular.js"></script>
+        <!--JQUERY-->
+            <!----D3------>
+            <script src="js/d3plus.full.min.js"></script>
+            <script src="js/jquery.js" type="text/javascript"></script>
+            <script src="js/jquery-ui.js" type="text/javascript"></script>
+            <link href="css/jquery-ui.css" rel="Stylesheet" type="text/css" />
+            <!--script src="js/jquery.maskedinput.js" type="text/javascript"></script-->
+            <script src="js/jquery.maskMoney.js" type="text/javascript"></script>
+            <script src="js/jQuery-Mask-Plugin-master/src/jquery.mask.js" type="text/javascript"></script>
+        <!--BOOTSTRAP-->
+        <!--<link href=" bootstrap/css/Menucss.css" rel="Stylesheet" type="text/css" />-->
+           <%-- <script src="bootstrap/js/bootstrap-select.js" type="text/javascript"></script>--%>
+           <link href=" bootstrap/css/bootstrap.css" rel="Stylesheet" type="text/css" />
+  <%--          <link href=" bootstrap/css/bootstrap-select.css" rel="Stylesheet" type="text/css" />--%>
+    <%--        <script type="text/javascript" src="js/js2.js"></script>--%>
+            <script src="bootstrap/js/bootstrap.js"></script>
+    <link href="css/stylesheet.css" rel="Stylesheet" type="text/css" />
+        <!--LOCAL-->
+    <%--<%--<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.0.min.js"></script>--%>
+    <%--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>--%>
+<!-- scripts -->
+
+            <asp:ContentPlaceHolder ID="head" runat="server">
+          
+           
+
+        </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav">                        
+                        <li ><a><asp:Label ID="lblStatusUser" runat="server" Class=""></asp:Label></a></li>
+                        <li><a runat="server" href="home.aspx" id="linkHome" class="btn" role="button"><i class="fa fa-home"></i> Inicio</a></li>
+                        <li><a runat="server" href="~/import.aspx" id="linkKML" class="btn" role="button"><i class="glyphicon glyphicon-download-alt"></i> Importar</a></li>                        
+                        <li><a runat="server" href="register.aspx"  id="linkCadastro" class="btn"><i class="fa fa-gears"></i> Cadastrar usuário</a></li>                     
+                        <li><a runat="server" href="gerenciamento.aspx"  id="linkRelatorios" class="btn"><i class="glyphicon glyphicon-list-alt"></i> Gerenciamento</a></li>
+                        <li><a runat="server" href="planejamento.aspx"  id="linkPlanejamento" class="btn"><i class="glyphicon glyphicon-briefcase"></i> Planejamento</a></li>
+                        <li ><a href="logout.aspx" runat="server" id="linkSair" class="btn  disabled"  >Sair</a></li>
+                        
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+     <script>
+
+         var activePage = true;
+
+         var tempo = '<% = Session["Tempo"]%>';
+
+
+         function showInformation() {
+
+             tempo = parseInt(tempo.toString());
+
+
+             if (activePage) {
+
+                 tempo = tempo + 1;              
+
+            } 
+
+            setTimeout("showInformation();", 1000);
+         }
+
+          $(function () {
+
+
+
+                    $(window)
+                        .focus(function () { activePage = true; })
+                        .blur(function () { activePage = false; });
+
+                    showInformation();
+
+          });
+               <%-- function DataHora() {
+
+
+
+                    var session = '<% = Session["Entrada"]%>'
+                    var IDUSER = '<%=Session["IDUSER"].ToString()%>'
+                   
+                    $.ajax({
+                        url: '<%=ResolveUrl("~/Classes/Service.asmx/SetHora") %>',
+                        data: "{ 'prefix':'" + tempo + "$" + session + "$" + IDUSER + "'}",
+                        dataType: "json",
+                        type: "POST",
+                        contentType: "application/json; charset=utf-8",
+                        success: function (data7) {
+
+                            if (data7.d.toString() == "1") {
+
+                            }
+
+                        },
+                        error: function (response) {
+                            alert(response.responseText);
+
+                        },
+                        failure: function (response) {
+                            alert(response.responseText);
+
+                        }
+                    });
+
+                }--%>
+
+            </script>
+     <asp:ContentPlaceHolder ID="body" runat="server">
+           
+            <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true"/>
+           
+            
+            
+        </asp:ContentPlaceHolder>
+</body>
+</html>

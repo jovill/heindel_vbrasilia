@@ -1,0 +1,544 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="mm_folder_color_1">
+      <IconStyle>
+        <color>ff1300a9</color>
+        <colorMode>normal</colorMode>
+        <scale>1</scale>
+      </IconStyle>
+    </Style>
+    <Folder id="1">
+      <styleUrl>#mm_folder_color_1</styleUrl>
+      <name>centro sul</name>
+      <Style id="mm_marker_color_5">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="5">
+        <name>0001-0004</name>
+        <description>Unknown Point Feature</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9438559998,-19.9782639995</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_5</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_23">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="23">
+        <name>0005-0006</name>
+        <description>sem placa ident</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9449019998,-19.9766629998</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_23</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_29">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="29">
+        <name>0007-0008</name>
+        <description>sem placa ident</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9413499996,-19.9760439996</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_29</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_16">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="16">
+        <name>0009-0010</name>
+        <description>ilum. prca</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9388339996,-19.9741359998</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_16</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_10">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="10">
+        <name>0011-0012</name>
+        <description>ilum. prca</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9431670004,-19.9749089991</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_10</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_25">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="25">
+        <name>0013-0016</name>
+        <description>2 lamp</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9378770003,-19.9720059996</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_25</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_9">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="9">
+        <name>0017-0019</name>
+        <description>sem placa ident/2lamp</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9420659999,-19.971010999</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_9</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_26">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="26">
+        <name>0020-0024</name>
+        <description>Unknown Point Feature</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9426489996,-19.9692429991</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_26</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_13">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="13">
+        <name>0025-0027</name>
+        <description>Unknown Point Feature</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9406780004,-19.9696099997</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_13</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_14">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="14">
+        <name>0028</name>
+        <description>ilum. prca</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9380199999,-19.969692999</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_14</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_8">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="8">
+        <name>0029-0032</name>
+        <description>Unknown Point Feature</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9388850001,-19.9670789992</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_8</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_7">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="7">
+        <name>0033-0035</name>
+        <description>sem placa ident</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9361979999,-19.9653479992</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_7</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_2">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="2">
+        <name>0036-0038</name>
+        <description>Unknown Point Feature</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9376509998,-19.9636789992</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_2</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_20">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="20">
+        <name>0039-0040</name>
+        <description>sem placa ident.</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9350819999,-19.961937999</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_20</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_30">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="30">
+        <name>0041-0043</name>
+        <description>2 la MP./ sem placa ident</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9343840002,-19.9640169991</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_30</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_12">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="12">
+        <name>0044-0046</name>
+        <description>Unknown Point Feature</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9334620003,-19.9677399997</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_12</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_24">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="24">
+        <name>0047-0048</name>
+        <description>sem placa ident.</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9358599998,-19.9685069992</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_24</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_27">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="27">
+        <name>0049-0050</name>
+        <description>possui placa,porém, o cano de fiação não deixa identifi-lo</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9340450003,-19.9705769992</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_27</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_11">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="11">
+        <name>0051-0052</name>
+        <description>sem placa identif.</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9343649996,-19.9727739995</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_11</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_22">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="22">
+        <name>100-0053.0055</name>
+        <description>sem placa ident.</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9414400003,-19.9603359991</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_22</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_4">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="4">
+        <name>100-0056.0057</name>
+        <description>sem placa ident.</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9403529996,-19.9571879994</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_4</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_17">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="17">
+        <name>100-0058.0059</name>
+        <description>sem placa ident.</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9376560004,-19.9575609992</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_17</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_31">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="31">
+        <name>100-0060.0061</name>
+        <description>sem placa ident.</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9358099999,-19.9598869998</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_31</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_21">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="21">
+        <name>100-0062.0063</name>
+        <description>sem placa ident.</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9324380003,-19.9577269995</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_21</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_1">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="1">
+        <name>100-0064.0066</name>
+        <description>Unknown Point Feature</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.930658,-19.9587789994</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_1</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_15">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="15">
+        <name>100-0067.0068</name>
+        <description>sem placa ident.</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9305200003,-19.9557539996</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_15</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_18">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="18">
+        <name>100-0069.0071</name>
+        <description>placa identif. encoberta</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9310419998,-19.9527929996</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_18</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_33">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="33">
+        <name>100-0072.0073</name>
+        <description>sem placa identif.</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9324550003,-19.9507829991</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_33</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_6">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="6">
+        <name>100-0074.0076</name>
+        <description>Unknown Point Feature</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9343569997,-19.9490519996</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_6</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_19">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="19">
+        <name>100-0077.0079</name>
+        <description>placa ident. tampada</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9350729997,-19.9516509993</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_19</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_3">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="3">
+        <name>100-0080.0082</name>
+        <description>Unknown Point Feature</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9369190003,-19.9550599991</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_3</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_28">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="28">
+        <name>100-0083.0085</name>
+        <description>Unknown Point Feature</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.935122,-19.9558019998</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_28</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_32">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="32">
+        <name>100-0086.0088</name>
+        <description>Unknown Point Feature</description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.9330809999,-19.9547979997</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_32</styleUrl>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

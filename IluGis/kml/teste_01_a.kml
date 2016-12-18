@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="mm_folder_color_0">
+      <IconStyle>
+        <color>ff00b371</color>
+        <colorMode>normal</colorMode>
+        <scale>1</scale>
+      </IconStyle>
+    </Style>
+    <Folder id="0">
+      <styleUrl>#mm_folder_color_0</styleUrl>
+      <name></name>
+      <Style id="mm_marker_color_11">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="11">
+        <name></name>
+        <description></description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.90286184847355,-19.999771994114795</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_11</styleUrl>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

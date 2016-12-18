@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="mm_folder_color_1">
+      <IconStyle>
+        <color>ff1300a9</color>
+        <colorMode>normal</colorMode>
+        <scale>1</scale>
+      </IconStyle>
+    </Style>
+    <Folder id="1">
+      <styleUrl>#mm_folder_color_1</styleUrl>
+      <name>teste02</name>
+      <Style id="mm_marker_color_1">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="1">
+        <name>0067-0069</name>
+        <description></description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.94140910209542,-19.98788278588502</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_1</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_2">
+        <IconStyle>
+          <color>ff00b371</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="2">
+        <name>0074-0076</name>
+        <description></description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.94090978325935,-19.98761811029301</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_2</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_3">
+        <IconStyle>
+          <color>ff1300a9</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="3">
+        <name>Untitled Placemark</name>
+        <description></description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.94040885972842,-19.98737895991598</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_3</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_4">
+        <IconStyle>
+          <color>ff1300a9</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="4">
+        <name>Untitled Placemark</name>
+        <description></description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.93979603299122,-19.98729195981505</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_4</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_5">
+        <IconStyle>
+          <color>ff1300a9</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="5">
+        <name>Untitled Placemark</name>
+        <description></description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.94181830597439,-19.98870509808602</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_5</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_6">
+        <IconStyle>
+          <color>ff1300a9</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="6">
+        <name>Untitled Placemark</name>
+        <description></description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.94196419929812,-19.98848765839471</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_6</styleUrl>
+      </Placemark>
+      <Style id="mm_marker_color_7">
+        <IconStyle>
+          <color>ff1300a9</color>
+          <colorMode>normal</colorMode>
+          <scale>1</scale>
+        </IconStyle>
+      </Style>
+      <Placemark id="7">
+        <name>Untitled Placemark</name>
+        <description></description>
+        <phoneNumber></phoneNumber>
+        <Point>
+          <coordinates>-43.94165929630456,-19.98893944771648</coordinates>
+        </Point>
+        <styleUrl>#mm_marker_color_7</styleUrl>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

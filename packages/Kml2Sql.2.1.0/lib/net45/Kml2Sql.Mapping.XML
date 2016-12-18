@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Kml2Sql.Mapping</name>
+    </assembly>
+    <members>
+        <member name="T:Kml2Sql.Mapping.Kml2SqlConfig">
+            <summary>
+            Configuration file for generating Map Features
+            </summary>
+        </member>
+        <member name="P:Kml2Sql.Mapping.Kml2SqlConfig.TableName">
+            <summary>
+            Table name that Placemarks will be uploaded to. Default is "KmlUpload".
+            </summary>
+        </member>
+        <member name="P:Kml2Sql.Mapping.Kml2SqlConfig.PlacemarkColumnName">
+            <summary>
+            Name of the column that SqlGeography or SqlGeometry object will be stored in. Default is "Placemark".
+            </summary>
+        </member>
+        <member name="P:Kml2Sql.Mapping.Kml2SqlConfig.IdColumnName">
+            <summary>
+            Column ID name. Default is "Id".
+            </summary>
+        </member>
+        <member name="P:Kml2Sql.Mapping.Kml2SqlConfig.NameColumnName">
+            <summary>
+            Name of column with placemark name. Default is "Name".
+            </summary>
+        </member>
+        <member name="P:Kml2Sql.Mapping.Kml2SqlConfig.GeoType">
+            <summary>
+            Sql Polygon type that will be used. Default is "Geometry".
+            </summary>
+        </member>
+        <member name="P:Kml2Sql.Mapping.Kml2SqlConfig.FixPolygons">
+            <summary>
+            Close ring of any open polygons.
+            </summary>
+        </member>
+        <member name="P:Kml2Sql.Mapping.Kml2SqlConfig.Srid">
+            <summary>
+            Geography SRID. Not used for is PolygonType is set to Gemetry. Default is 4326.
+            </summary>
+        </member>
+        <member name="M:Kml2Sql.Mapping.Kml2SqlConfig.MapColumnName(System.String,System.String)">
+            <summary>
+            Change SQL column name of placemark data.
+            </summary>
+            <param name="placemarkName">Name of data from Placemark file.</param>
+            <param name="columnName">Column name in SQL</param>
+        </member>
+        <member name="T:Kml2Sql.Mapping.MapFeature">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Kml2Sql.Mapping.MapFeature.Placemark">
+            <summary>
+            Original SharpKML representation of placemark.
+            </summary>
+        </member>
+        <member name="P:Kml2Sql.Mapping.MapFeature.Id">
+            <summary>
+            Sql Id
+            </summary>
+        </member>
+        <member name="P:Kml2Sql.Mapping.MapFeature.Name">
+            <summary>
+            Placemar Name property, or else Id
+            </summary>
+        </member>
+        <member name="P:Kml2Sql.Mapping.MapFeature.Coordinates">
+            <summary>
+            Coordinates of polygon, point, or string.
+            </summary>
+        </member>
+        <member name="P:Kml2Sql.Mapping.MapFeature.InnerCoordinates">
+            <summary>
+            Inner coordinates, if any. Only used for Polygons.
+            </summary>
+        </member>
+        <member name="P:Kml2Sql.Mapping.MapFeature.Data">
+            <summary>
+            Additinal Placemark data that will be entered into SQL.
+            </summary>
+        </member>
+        <member name="P:Kml2Sql.Mapping.MapFeature.ShapeType">
+            <summary>
+            Type of Placemark shape.
+            </summary>
+        </member>
+        <member name="M:Kml2Sql.Mapping.MapFeature.GetInsertCommand">
+            <summary>
+            Create a SqlCommand that, when executed, will insert this object into SQL.
+            </summary>
+            <returns>SqlCommand</returns>
+        </member>
+        <member name="M:Kml2Sql.Mapping.MapFeature.GetInsertQuery">
+            <summary>
+            Get an insert statement that, when exectued, will insert this object into SQL. Can be used
+            when saving text files of SQL Commands, but should be careful as commands will not be parameterized.
+            </summary>
+            <returns>Insert Query</returns>
+        </member>
+        <member name="T:Kml2Sql.Mapping.Kml2SqlMapper">
+            <summary>
+            Builds SQL queries for inserting KML files into SQL.
+            </summary>
+        </member>
+        <member name="P:Kml2Sql.Mapping.Kml2SqlMapper.Configuration">
+            <summary>
+            Configuration settings for the Mapper.
+            </summary>
+        </member>
+        <member name="M:Kml2Sql.Mapping.Kml2SqlMapper.GetMapFeatures">
+            <summary>
+            Get an Enumerable set of MapFeature objects
+            </summary>
+            <returns>Enumerable collection of MapFeature objects</returns>
+        </member>
+        <member name="M:Kml2Sql.Mapping.Kml2SqlMapper.GetCreateTableCommand(System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Get SQLCommand that will create a table for MapFeature objects. Column names are based on
+            Placemark data and Configuratiohn settings.
+            </summary>
+            <param name="connection">The SqlConnection</param>
+            <param name="transaction">Any sql Transactions</param>
+            <returns>A SqlCommand</returns>
+        </member>
+        <member name="M:Kml2Sql.Mapping.Kml2SqlMapper.GetCreateTableCommand">
+            <summary>
+            Get SQLCommand that will create a table for MapFeature objects. Column names are based on
+            Placemark data and Configuratiohn settings.
+            </summary>
+            <returns>A SqlCommand</returns>
+        </member>
+        <member name="M:Kml2Sql.Mapping.Kml2SqlMapper.GetCombinedInsertCommands">
+            <summary>
+            Get combination of all Mapfeature inserts.
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="M:Kml2Sql.Mapping.Kml2SqlMapper.GetCreateTableScript">
+            <summary>
+            Get SQL query that will create a table for MapFeature objects. Column names are based on
+            Placemark data and Configuratiohn settings.
+            </summary>
+            <returns>SQL Script</returns>
+        </member>
+        <member name="T:Kml2Sql.Mapping.ShapeType">
+            <summary>
+            Type of Shape for MapFeatures.
+            </summary>
+        </member>
+        <member name="T:Kml2Sql.Mapping.PolygonType">
+            <summary>
+            Type of Polygon for MapFeatures
+            </summary>
+        </member>
+    </members>
+</doc>
